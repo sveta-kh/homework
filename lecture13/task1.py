@@ -7,9 +7,13 @@ def even_numbers():
         num +=2
 
 func = even_numbers()
+count = 0
 
 for num in func:
     print(num)
-    if num == 18:
+    count += 1
+
+    if count == 10:
         break
+
     
